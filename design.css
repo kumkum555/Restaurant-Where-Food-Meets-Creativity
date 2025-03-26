@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+:root {
+    --h1: 70px;
+    --h2: 65px;
+    --h3: 20px;
+    --h4: 12px;
+    
+    --p1: 16px;
+    --p2: 13px;
+    --p3: 14px;
+    --p4: 21px;
+
+    --primary-color: #FF7F50;
+    --secondary-color:#1d1d1d;
+    --background-color:#ffffff;
+    --text-color: #000000;
+    --button-bg: var(--primary-color);
+    --button-text: #FFFFFF;
+    --menu-button-beg:#000000;
+    --menu-button-text:#ffffff;
+}
+
+body {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: var(--h1);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--h2);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--h3);
+    font-weight: 500;
+}
+
+h4 {
+    font-size: var(--h4);
+    font-weight: 400;
+}
+
+p {
+    font-size: var(--p1);
+}
+
+.p2 {
+    font-size: var(--p2);
+}
+
+.p3 {
+    font-size: var(--p3);
+}
+
+.p4 {
+    font-size: var(--p4);
+}
+
+button, .book-button, .menu-button {
+    background: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
